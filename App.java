@@ -17,7 +17,12 @@ public class App {
         strings.add(new String[]{"ss12", "ss", "ss"});
         strings.add(new String[]{"1000", "ss", "ss"});
         strings.add(new String[]{"2000", "ss", "ss"});
-        strings.add(new String[]{"ss100", "SSS", "ss"});
+        strings.add(new String[]{"2000aaaa", "ss", "ss"});
+        strings.add(new String[]{"2000baaa", "ss", "ss"});
+        strings.add(new String[]{"ss100bb", "SSS", "ss"});
+        strings.add(new String[]{"ss100aa", "SSS", "ss"});
+        strings.add(new String[]{"ss100aa10", "SSS", "ss"});
+        strings.add(new String[]{"ss100aa20", "SSS", "ss"});
         strings.add(new String[]{"ss100", "AAA", "ss"});
         strings.add(new String[]{null, "ss", "ss"});
         strings.add(new String[]{"ss11", "ss", "ss"});
