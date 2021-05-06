@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class App {
@@ -28,14 +29,23 @@ public class App {
         strings.add(new String[]{"ss11", "ss", "ss"});
         strings.add(new String[]{"ss200", "ss", "ss"});
         strings.add(new String[]{"  ", "ss", "ss"});
+        Collections.shuffle(strings);
 
-
-        strings.forEach(arr-> System.out.println(Arrays.toString(arr)));
+        System.out.println("----------------Данные до сортировки");
+        for (String[] string : strings) {
+            System.out.println(Arrays.toString(string));
+        }
         System.out.println();
         SORTER.sort(strings,0);
-        strings.forEach(arr-> System.out.println(Arrays.toString(arr)));
+        System.out.println("---------------Данные после сортировки");
+        for (String[] string : strings) {
+            System.out.println(Arrays.toString(string));
+        }
         System.out.println();
         SORTER.sort(strings,0);
-        strings.forEach(arr-> System.out.println(Arrays.toString(arr)));
+        System.out.println("--------------Данные после повтороной сортировки");
+        for (String[] arr : strings) {
+            System.out.println(Arrays.toString(arr));
+        }
     }
 }

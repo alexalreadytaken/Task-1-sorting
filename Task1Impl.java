@@ -2,6 +2,7 @@ import java.util.*;
 
 
 public enum Task1Impl implements IStringRowsListSorter{
+
     INSTANCE;
 
     @Override
